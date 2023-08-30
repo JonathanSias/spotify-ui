@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Spotify UI</title>
+    <link rel="stylesheet" href="../src/style.css">
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+    <!-- Material Icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <style>
+        .material-symbols-rounded {
+          font-variation-settings:
+          'FILL' 1,
+          'wght' 400,
+          'GRAD' 0,
+          'opsz' 24
+        }
+    </style>
+  </head>
+  <body class="flex__col">
+    <div class="flex__content">
+        <nav class="user__lib">
+            <ul class="nav__list icon__list">
+                <li class="flex__row active"><span class="material-symbols-rounded icon main__nav__icon active">home</span>Home</li>
+                <li class="flex__row"><span class="material-symbols-rounded icon main__nav__icon">search</span>Search</li>
+                <li class="flex__row"><span class="material-symbols-rounded icon main__nav__icon">web_stories</span>Your Library</li>
+            </ul>
+            <ul class="nav__list icon__list lib__list">
+                <li class="flex__row"><span class="material-symbols-rounded icon main__nav__icon">add_box</span>Create Playlist</li>
+                <li class="flex__row"><span class="material-symbols-rounded icon main__nav__icon">stars</span>Liked Songs</li>
+            </ul>
+            <hr>
+            <!-- Playlist -->
+            <ul class="nav__list personal__playlist">
+                <li>On Repeat</li>
+                <li>Repeat Rewind</li>
+                <li>Upside Down Playlist</li>
+                <li>Your Top Songs 2022</li>
+                <li>Your Top Songs 2021</li>
+                <li>Your Top Songs 2020</li>
+                <li>Your Top Songs 2019</li>
+                <li>Your Top Songs 2018</li>
+                <li>Your Top Songs 2017</li>
+                <li>Your Top Songs 2016</li>
+                <li>Your Time Capsule</li>
+            </ul>
+        </nav>
+        <main class="main__content">
+            <div class="top__nav flex space__bt">
+                <div class="nav__buttons flex">
+                    <span class="material-symbols-rounded icon arrow" style="transform: rotate(180deg);">expand_circle_right</span>
+                    <span class="material-symbols-rounded icon arrow">expand_circle_right</span>
+                </div>
+                <div class="user__drop flex__row">
+                    <span class="material-symbols-rounded icon w__color acc__circle main__nav__icon">account_circle</span>
+                    <p class="w__color">Jonathan Sias</p>
+                    <span class="material-symbols-rounded icon w__color">arrow_drop_down</span>
+                </div>
+            </div>
+        </main>
+    </div>
+    <footer class="m__player">
+        <span class="material-symbols-rounded"></span>
+    </footer>
+    <!--  -->
+	<script src=""></script>
+  </body>
+</html>
