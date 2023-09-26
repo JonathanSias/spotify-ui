@@ -20,6 +20,7 @@ body {
 /* nav */
 .flex {
     display: flex;
+    gap: 10px;
 }
 
 .space__bt {
@@ -95,6 +96,7 @@ hr {
 
 .personal__playlist li {
     margin: 5px;
+    cursor: pointer;
 }
 
 /* main */
@@ -108,6 +110,7 @@ hr {
 span.arrow {
     font-size: 40px;
     color: #616161;
+    cursor: pointer;
 }
 
 .w__color {
@@ -119,6 +122,12 @@ span.arrow {
     padding: 2px 8px;
     background-color: #000000;
     border-radius: 25px;
+    cursor: pointer;
+    transition: 0.3s ease-in;
+}
+
+.user__drop:hover {
+    background-color: #424242;
 }
 
 span.acc__circle {
@@ -153,9 +162,14 @@ span.acc__circle {
     justify-content: flex-start;
     align-items: center;
     background-color: #424242;
-    /* max-width: 345px; */
+    cursor: pointer;
     border-radius: 4px;
     flex: 1 0 25%;
+    transition: 0.3s ease-in;
+}
+
+.album__item:hover {
+    background-color: #616161;
 }
 
 .album__item img {
@@ -190,6 +204,12 @@ span.acc__circle {
     padding: 15px;
     border-radius: 4px;
     max-width: 170px;
+    transition: 0.3s ease-in;
+    cursor: pointer;
+}
+
+.album__card:hover {
+    background-color: #424242;
 }
 
 .album__title {
@@ -268,6 +288,12 @@ span.artist {
     align-items: center;
     justify-content: center;
     gap: 16px;
+}
+
+.controls span.material-symbols-rounded:hover, .other__controls span.material-symbols-rounded:hover {
+    cursor: pointer;
+    color: #bdbdbd;
+    transition: 0.3s ease-in;
 }
 
 span.rest__cplayers {
