@@ -13,5 +13,10 @@ v1.0
 - CSS
 - Spotify old interface
 
+v2.0
+- React
+- Tailwind
+- Lucide React Icons
+
 Demo:
 ![Demo img](demo.png)
