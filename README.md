@@ -19,4 +19,5 @@ v2.0
 - Lucide React Icons
 
 Demo:
-![Demo img](demo.png)
+![Demo v1.0](demo.png)
+![Demo v2.0](demo_2.png)
