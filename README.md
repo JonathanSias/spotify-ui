@@ -10,7 +10,7 @@ v1.0
 - Spotify old interface
 
 v2.0
-- Next JS
+- Next
 - Tailwind
 - Lucide React Icons
 - Spotify 2023 interface
